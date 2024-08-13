@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#742f37;
+    ;
+    color : white;
+    text-shadow :2px 2px 4px black;
+    font-family: 'Chosunilbo_myungjo';
+
+    margin : 15px;
+    border : inset 4px rgb(148, 76, 85);
+
+    .name{
+        font-size : 30px;
+        margin : 30px;
+    }
+    .photo{
+        width : 30%;
+        box-shadow: 2px 2px 5px black;
+        margin : 30px;
+    }
+    .text{
+        font-size : 18px;
+        margin : 30px;
+        line-height : 28px;
+    }
+}

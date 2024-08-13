@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MaruBuriExtraLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KCC-Ahnchangho';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/KCC-Ahnchangho.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    a:link, a:visited{
+        color : white; 
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover, a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+    }
+   
+    margin : 0px;
+    background-color: #742f37;
+    .title{
+        
+        font-family: 'GowunBatang-Regular';
+        letter-spacing: 10px;
+        text-align : center;
+        font-size : 40px;
+        color : white;
+        text-shadow :3px 3px 5px black;
+        padding-bottom : 60px;
+        padding-top:50px;
+        margin : 15px;
+        border : inset 4px rgb(148, 76, 85);
+        
+    }
+    .left, .right {
+        font-family: 'KCC-Ahnchangho';
+
+        font-size : 20px;
+        display : inline;
+        padding : 20px;
+        font-style : italic;
+        letter-spacing: 9px;
+    }
+
+    .all{
+        border : inset 4px rgb(148, 76, 85);
+        margin : 15px;
+        font-family: 'Chosunilbo_myungjo';
+
+        
+    }
+    .bossName{
+        color:white;
+        text-shadow :2px 2px 4px black;
+
+        margin-top : 100px;
+        margin-bottom : 90px;
+        text-align : center;
+        font-size : 15px;
+        letter-spacing: 4px;
+    }
+
+    .name{
+        color:white;
+        text-shadow :2px 2px 4px black;
+
+        text-align: center;
+        line-height: 3.5;
+    }
+
+    .plus{
+        text-align : right;
+        font-size: 12px;
+        color : white;
+        text-shadow : 1px 1px 2px black;
+        margin : 10px;
+        margin-top : 30px;
+    }
+
+    img{
+        display : block;
+        width : 55%;
+        margin : auto;
+        margin-top : 100px;
+        box-shadow : 5px 5px 5px black;
+        
+        
+    }
+
+    .text{
+        color : lightgray;
+        text-shadow : 1px 1px 1.5px black;
+        font-size : 13px;
+        text-align : center;
+        font-style : italic;
+        margin : 25px;
+
+    }
+}
